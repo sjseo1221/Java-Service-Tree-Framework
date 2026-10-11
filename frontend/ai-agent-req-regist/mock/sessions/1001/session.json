@@ -1,0 +1,15 @@
+{
+  "sessionId": 1001,
+  "pdServiceId": 1,
+  "pdServiceName": "A-RMS",
+  "targetVersion": "3.2.0",
+  "currentStage": "EXECUTE",
+  "overallState": "RUNNING",
+  "latestRevision": 2,
+  "revisions": [
+    1,
+    2
+  ],
+  "createdBy": "이민규",
+  "createdAt": "2026-10-01T09:00:00+09:00"
+}

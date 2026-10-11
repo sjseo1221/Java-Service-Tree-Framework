@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "monitor",
+      "labelKey": "aiagent.menu.monitor",
+      "icon": "monitor",
+      "route": "#/ops/monitor",
+      "integration": "MAT",
+      "available": true,
+      "reasonKey": "aiagent.menu.reason.matUnset"
+    },
+    {
+      "id": "knowledge",
+      "labelKey": "aiagent.menu.knowledge",
+      "icon": "knowledge",
+      "route": "#/ops/knowledge",
+      "integration": "KNOT",
+      "available": true,
+      "reasonKey": "aiagent.menu.reason.knotUnset"
+    },
+    {
+      "id": "agents",
+      "labelKey": "aiagent.menu.agents",
+      "icon": "agent",
+      "route": "#/ops/agents",
+      "integration": null,
+      "available": true,
+      "reasonKey": null
+    },
+    {
+      "id": "skills",
+      "labelKey": "aiagent.menu.skills",
+      "icon": "skill",
+      "route": "#/ops/skills",
+      "integration": null,
+      "available": true,
+      "reasonKey": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "added": [
+    "REQ-SE-002"
+  ],
+  "changed": [
+    {
+      "reqId": "REQ-F-017",
+      "column": "priority",
+      "before": "High",
+      "after": "Medium"
+    },
+    {
+      "reqId": "REQ-F-004",
+      "column": "note",
+      "before": "원 요청 항목 2) 파생.",
+      "after": "원 요청 항목 2) 파생. [작성 가이드] '행 덮어쓰기 금지, 비고에 변경 이력' 규칙의 시스템 구현."
+    }
+  ],
+  "retired": [
+    "REQ-F-023"
+  ],
+  "unchanged": 32
+}

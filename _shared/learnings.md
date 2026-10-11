@@ -115,3 +115,8 @@
 **교훈**: 한글 brief는 고정 "Worker 행동 규약" 블록과 경로만으로도 600자 가까이 써서 G4(1200자)에 금방 걸린다. 입력 경로는 `base: tasks/<task>/` 한 줄 + 상대 경로로 적으면 한 번에 줄어든다. 원문 PDF를 워커에게 넘길 때는 `pdftotext -enc UTF-8`을 쓴다 — `-layout`은 이 환경에서 한글 글리프가 공백으로 깨진다.
 **근거**: hansan-kickoff-plan에서 brief 1458→1178자 축소에 3회 재작성, claude-reviewer가 `-layout` 추출 실패 후 `-enc UTF-8`로 재추출.
 **worker**: claude-main 1회, claude-reviewer 1회
+
+## [2026-10-11] [scope-check-windows-prefix]
+**교훈**: Windows Git Bash 에서 `scope_check.sh` 의 target_repo 가 git 최상위 폴더 자신이면, `git rev-parse --show-toplevel`(`C:/Users/…`)과 `pwd -P`(`/c/Users/…`) 표기가 달라 prefix 가 비지 않고 모든 변경이 `../` 로 위반 판정된다(exit 10 오탐). 판정 전에 두 경로를 같은 표기로 정규화해야 한다. 그 전까지는 `git status --porcelain` 으로 범위를 대체 확인한다.
+**근거**: aiagent-frontend-mock 에서 frontend/ 단일 변경인데 전 파일 위반으로 보고됨.
+**worker**: orchestrator 단독

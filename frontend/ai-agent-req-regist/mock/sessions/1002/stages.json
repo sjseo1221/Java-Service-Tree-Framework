@@ -1,0 +1,62 @@
+[
+  {
+    "stage": "UPLOAD",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-09T14:00:00+09:00"
+  },
+  {
+    "stage": "REGISTER",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-09T14:20:00+09:00"
+  },
+  {
+    "stage": "REVIEW",
+    "status": "RUNNING",
+    "confirmedBy": null,
+    "confirmedAt": null
+  },
+  {
+    "stage": "SRS_GENERATE",
+    "status": "LOCKED",
+    "confirmedBy": null,
+    "confirmedAt": null
+  },
+  {
+    "stage": "SRS_CONFIRM",
+    "status": "LOCKED",
+    "confirmedBy": null,
+    "confirmedAt": null
+  },
+  {
+    "stage": "SDS_CONFIRM",
+    "status": "LOCKED",
+    "confirmedBy": null,
+    "confirmedAt": null
+  },
+  {
+    "stage": "BACKLOG",
+    "status": "LOCKED",
+    "confirmedBy": null,
+    "confirmedAt": null
+  },
+  {
+    "stage": "ASSIGN",
+    "status": "LOCKED",
+    "confirmedBy": null,
+    "confirmedAt": null
+  },
+  {
+    "stage": "EXECUTE",
+    "status": "LOCKED",
+    "confirmedBy": null,
+    "confirmedAt": null
+  },
+  {
+    "stage": "MONITOR",
+    "status": "LOCKED",
+    "confirmedBy": null,
+    "confirmedAt": null
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "revision": 2,
+    "changedAt": "2026-10-03T10:12:00+09:00",
+    "column": "priority",
+    "before": "High",
+    "after": "Medium"
+  }
+]

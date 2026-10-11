@@ -1,0 +1,107 @@
+[
+  {
+    "taskName": "aiagent-req-f-001",
+    "status": "done",
+    "goal": "요구사항 정의서 엑셀 파일 업로드",
+    "workers": [
+      {
+        "role": "claude-main",
+        "state": "DONE",
+        "briefPath": "tasks/aiagent-req-f-001/workers/claude-main/brief.md",
+        "resultPath": "tasks/aiagent-req-f-001/workers/claude-main/result.md",
+        "resultSize": 18432
+      },
+      {
+        "role": "claude-reviewer",
+        "state": "DONE",
+        "briefPath": "tasks/aiagent-req-f-001/workers/claude-reviewer/brief.md",
+        "resultPath": "tasks/aiagent-req-f-001/workers/claude-reviewer/result.md",
+        "resultSize": 6210
+      }
+    ]
+  },
+  {
+    "taskName": "aiagent-req-f-003",
+    "status": "in_progress",
+    "goal": "요구사항 ID 기준 A-RMS 등록",
+    "workers": [
+      {
+        "role": "claude-main",
+        "state": "RUNNING",
+        "briefPath": "tasks/aiagent-req-f-003/workers/claude-main/brief.md",
+        "resultPath": null,
+        "resultSize": null
+      },
+      {
+        "role": "claude-reviewer",
+        "state": "WAITING",
+        "briefPath": "tasks/aiagent-req-f-003/workers/claude-reviewer/brief.md",
+        "resultPath": null,
+        "resultSize": null
+      }
+    ]
+  },
+  {
+    "taskName": "aiagent-req-f-005",
+    "status": "in_progress",
+    "goal": "등록 요구사항 AI 자동 검토",
+    "workers": [
+      {
+        "role": "claude-main",
+        "state": "ERROR",
+        "briefPath": "tasks/aiagent-req-f-005/workers/claude-main/brief.md",
+        "resultPath": null,
+        "resultSize": null
+      },
+      {
+        "role": "claude-reviewer",
+        "state": "WAITING",
+        "briefPath": "tasks/aiagent-req-f-005/workers/claude-reviewer/brief.md",
+        "resultPath": null,
+        "resultSize": null
+      }
+    ]
+  },
+  {
+    "taskName": "aiagent-req-f-007",
+    "status": "done",
+    "goal": "확정 요구사항 기반 SRS 자동 생성",
+    "workers": [
+      {
+        "role": "claude-main",
+        "state": "DONE",
+        "briefPath": "tasks/aiagent-req-f-007/workers/claude-main/brief.md",
+        "resultPath": "tasks/aiagent-req-f-007/workers/claude-main/result.md",
+        "resultSize": 22016
+      },
+      {
+        "role": "claude-reviewer",
+        "state": "RUNNING",
+        "briefPath": "tasks/aiagent-req-f-007/workers/claude-reviewer/brief.md",
+        "resultPath": null,
+        "resultSize": null
+      }
+    ]
+  },
+  {
+    "taskName": "aiagent-req-f-004",
+    "status": "pending",
+    "goal": "재업로드 변경분 판정 및 등록 이력",
+    "workers": [
+      {
+        "role": "claude-main",
+        "state": "WAITING",
+        "briefPath": "tasks/aiagent-req-f-004/workers/claude-main/brief.md",
+        "resultPath": null,
+        "resultSize": null
+      },
+      {
+        "role": "claude-reviewer",
+        "state": "WAITING",
+        "briefPath": "tasks/aiagent-req-f-004/workers/claude-reviewer/brief.md",
+        "resultPath": null,
+        "resultSize": null
+      }
+    ]
+  }
+]

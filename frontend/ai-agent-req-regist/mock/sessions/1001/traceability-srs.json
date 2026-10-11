@@ -1,0 +1,212 @@
+[
+  {
+    "sourceId": "REQ-F-001",
+    "targetIds": [
+      "§3.1.1"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-002",
+    "targetIds": [
+      "§3.1.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-003",
+    "targetIds": [
+      "§3.1.3"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-004",
+    "targetIds": [
+      "§3.1.4"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-005",
+    "targetIds": [
+      "§3.2.1"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-006",
+    "targetIds": [
+      "§3.2.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-007",
+    "targetIds": [
+      "§3.3.1"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-008",
+    "targetIds": [
+      "§3.3.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-009",
+    "targetIds": [
+      "§3.3.3"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-010",
+    "targetIds": [
+      "§3.3.4"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-011",
+    "targetIds": [
+      "§3.4.1"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-012",
+    "targetIds": [
+      "§3.4.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-013",
+    "targetIds": [
+      "§3.4.3"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-014",
+    "targetIds": [
+      "§3.4.4"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-015",
+    "targetIds": [
+      "§3.4.5"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-016",
+    "targetIds": [
+      "§3.5.1"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-017",
+    "targetIds": [
+      "§3.5.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-018",
+    "targetIds": [
+      "§3.6.1"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-019",
+    "targetIds": [
+      "§3.6.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-020",
+    "targetIds": [
+      "§3.7.1"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-021",
+    "targetIds": [
+      "§3.7.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-022",
+    "targetIds": [
+      "§3.7.3"
+    ]
+  },
+  {
+    "sourceId": "REQ-IF-001",
+    "targetIds": [
+      "§4.2.1"
+    ]
+  },
+  {
+    "sourceId": "REQ-IF-002",
+    "targetIds": [
+      "§4.2.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-IF-003",
+    "targetIds": [
+      "§4.2.3"
+    ]
+  },
+  {
+    "sourceId": "REQ-IF-004",
+    "targetIds": [
+      "§4.2.4"
+    ]
+  },
+  {
+    "sourceId": "REQ-DA-001",
+    "targetIds": [
+      "§5.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-DA-002",
+    "targetIds": [
+      "§5.3"
+    ]
+  },
+  {
+    "sourceId": "REQ-DA-003",
+    "targetIds": [
+      "§5.4"
+    ]
+  },
+  {
+    "sourceId": "REQ-NF-001",
+    "targetIds": [
+      "§6.2"
+    ]
+  },
+  {
+    "sourceId": "REQ-NF-002",
+    "targetIds": [
+      "§6.1"
+    ]
+  },
+  {
+    "sourceId": "REQ-NF-003",
+    "targetIds": [
+      "§6.3"
+    ]
+  },
+  {
+    "sourceId": "REQ-NF-004",
+    "targetIds": [
+      "§6.4"
+    ]
+  },
+  {
+    "sourceId": "REQ-SE-001",
+    "targetIds": [
+      "§6.5"
+    ]
+  },
+  {
+    "sourceId": "REQ-SE-002",
+    "targetIds": [
+      "§6.6"
+    ]
+  }
+]
