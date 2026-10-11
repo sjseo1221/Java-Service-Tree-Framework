@@ -110,3 +110,8 @@
 **교훈**: Windows 에서 `check-invariants.sh --self-test` 가 "깨뜨렸는데 통과함" 을 대량으로 내면 러너 결함보다 **`python3` 가 Microsoft Store 스텁**(실행 시 "Python" 만 출력하고 실패)인지 먼저 본다. `replace_in` fixture 가 아무것도 깨지 못해 사본이 무결로 남는다(echo·rm fixture 만 PASS 하는 패턴이 신호). 실제 Python 을 `python3` 로 잡고 `PYTHONUTF8=1`(cp949 기본 인코딩 회피)을 줘야 판정이 유효하다. 또 Bash heredoc 으로 Python 편집 스크립트를 넘기면 `\t` 이스케이프·`\` 줄연속이 변형될 수 있어, 백슬래시가 있는 셸 코드 편집은 Write 도구로 만든 raw-string 스크립트로 한다.
 **근거**: 워커 풀 재구성(D15) 검증 시 self-test 14건 FAIL → python3 shim(+UTF-8) 후 21/21 PASS. heredoc 편집 1회 불일치·1회 탭 변형 발생.
 **worker**: orchestrator 단독(worker 호출 0건)
+
+## [2026-10-10] [brief-limit-korean-pdf]
+**교훈**: 한글 brief는 고정 "Worker 행동 규약" 블록과 경로만으로도 600자 가까이 써서 G4(1200자)에 금방 걸린다. 입력 경로는 `base: tasks/<task>/` 한 줄 + 상대 경로로 적으면 한 번에 줄어든다. 원문 PDF를 워커에게 넘길 때는 `pdftotext -enc UTF-8`을 쓴다 — `-layout`은 이 환경에서 한글 글리프가 공백으로 깨진다.
+**근거**: hansan-kickoff-plan에서 brief 1458→1178자 축소에 3회 재작성, claude-reviewer가 `-layout` 추출 실패 후 `-enc UTF-8`로 재추출.
+**worker**: claude-main 1회, claude-reviewer 1회
