@@ -1,0 +1,104 @@
+[
+  {
+    "findingId": "FND-1001-1-01",
+    "reqId": "REQ-F-002",
+    "aspect": "CONFLICT",
+    "severity": "HIGH",
+    "content": "검증 정본인 [작성 가이드] 시트는 상세 내용을 4블록([개요] / [상세 기능 요구사항] / [제약사항] / [인수 조건])으로 규정하지만, 실제 35건은 모두 7블록(개요 / 상세 기능 요구사항 / 입력·출력 / 제약 조건·비기능 / 검증 기준 / 작업 대상 / Worker Settings) 구조를 쓴다. 가이드를 갱신하지 않으면 업로드 검증기가 정상 데이터를 오류로 판정한다. (분석서 R-01)",
+    "suggestion": "가이드 시트의 블록 규격을 7블록으로 갱신하고 양식 버전을 올린 뒤, 그 버전을 REQ-F-002 의 검증 기준선으로 고정한다.",
+    "linkedReqIds": [
+      "REQ-F-003"
+    ],
+    "state": "ACCEPTED",
+    "reason": null
+  },
+  {
+    "findingId": "FND-1001-1-02",
+    "reqId": "REQ-F-003",
+    "aspect": "CONFLICT",
+    "severity": "HIGH",
+    "content": "상세 내용을 7블록으로 분해해 저장한다는 전제가 REQ-F-002 의 검증 기준선([작성 가이드] 4블록 규격)과 충돌한다. (분석서 R-01)",
+    "suggestion": "가이드 시트의 블록 규격을 7블록으로 갱신하고 양식 버전을 올린 뒤, 그 버전을 REQ-F-002 의 검증 기준선으로 고정한다.",
+    "linkedReqIds": [
+      "REQ-F-002"
+    ],
+    "state": "ACCEPTED",
+    "reason": null
+  },
+  {
+    "findingId": "FND-1001-1-03",
+    "reqId": "REQ-F-005",
+    "aspect": "MISSING",
+    "severity": "HIGH",
+    "content": "REQ-F-005 는 지적사항(요구사항 ID · 관점 · 심각도 · 내용 · 개선 제안)과 검토 회차 보존을, REQ-F-006 은 처리 결정 · 사유 · 인라인 편집 이력을 요구하지만, 데이터 모델 요구사항 3건(REQ-DA-001~003) 어디에도 지적사항 저장 모델이 없다. (분석서 R-02, TBD-01)",
+    "suggestion": "REQ-DA-004(검토 지적사항 · 처리 이력 데이터 모델) 을 신설하고 REQ-F-005 · F-006 · NF-004 와 연결한다.",
+    "linkedReqIds": [
+      "REQ-F-006"
+    ],
+    "state": "ACCEPTED",
+    "reason": null
+  },
+  {
+    "findingId": "FND-1001-1-04",
+    "reqId": "REQ-F-012",
+    "aspect": "CONFLICT",
+    "severity": "MEDIUM",
+    "content": "워커 후보 예시(codex-main · codex-critic · gemini)가 현행 capability-profile(2026-10-01, claude-main · claude-reviewer)과 다르다. REQ-F-012 는 capability-profile 을 정본으로 둔다.",
+    "suggestion": "후보 예시 목록을 지우고 \"capability-profile 의 현행 워커\" 로만 서술해, 프로필 개정 때마다 정의서가 어긋나지 않게 한다.",
+    "linkedReqIds": [
+      "REQ-F-013"
+    ],
+    "state": "HELD",
+    "reason": "capability-profile 개정 일정 확인 후 반영"
+  },
+  {
+    "findingId": "FND-1001-1-05",
+    "reqId": "REQ-F-021",
+    "aspect": "CONFLICT",
+    "severity": "MEDIUM",
+    "content": "상단 10단계 명칭에 'SDS 생성' 단계가 없으나, REQ-F-022 의 진입 게이트는 SDS 생성 완료를 별도 조건으로 둔다.",
+    "suggestion": "6단계를 'SDS 생성 · 확정' 으로 명명하거나, REQ-F-022 게이트 표에서 SDS 생성을 6단계의 하위 조건으로 명시한다.",
+    "linkedReqIds": [
+      "REQ-F-022"
+    ],
+    "state": "ACCEPTED",
+    "reason": null
+  },
+  {
+    "findingId": "FND-1001-1-06",
+    "reqId": "REQ-NF-002",
+    "aspect": "UNVERIFIABLE",
+    "severity": "MEDIUM",
+    "content": "최대 수행 시간 · 동시 실행 상한 · 재시도 횟수의 기본값이 모두 \"설정값으로 정의\" 로 위임되어 있어, 검증 시점에 수용 판정 기준이 존재하지 않는다. (분석서 R-06, TBD-02)",
+    "suggestion": "설정값의 기본값을 정의서 또는 SRS 에 고정하고, 그 값을 검증 기준으로 승격한다.",
+    "linkedReqIds": [],
+    "state": "HELD",
+    "reason": "TBD-02 설정 기본값 합의 대기"
+  },
+  {
+    "findingId": "FND-1001-1-07",
+    "reqId": "REQ-F-017",
+    "aspect": "AMBIGUITY",
+    "severity": "LOW",
+    "content": "REQ-F-017 과 REQ-IF-003 이 \"1단계 범위에서는 조회 전용\" 이라고 한정하지만, 2단계 범위가 어디에도 정의되어 있지 않다. 조회 전용 제약이 영구 제약인지 임시 제약인지 판단할 수 없다. (분석서 R-08, TBD-04)",
+    "suggestion": "확인 필요: 단계 구분의 정의와 2단계 범위를 명시하거나, 해당 표현을 현행 릴리스 제약으로 문구를 고정한다.",
+    "linkedReqIds": [
+      "REQ-IF-003"
+    ],
+    "state": "REJECTED",
+    "reason": "1단계 범위로 고정"
+  },
+  {
+    "findingId": "FND-1001-1-08",
+    "reqId": "REQ-F-003",
+    "aspect": "MISSING",
+    "severity": "LOW",
+    "content": "폐기된 요구사항 ID 의 재사용을 막으려면 폐기 ID 를 영구 보관해야 하지만, 보관 주체가 기존 A-RMS 요구사항 도메인으로 암묵 전제되어 있을 뿐 명시되지 않았다. (분석서 R-09, TBD-05)",
+    "suggestion": "확인 필요: 폐기 ID 보관 위치를 REQ-DA-001 또는 요구사항 도메인 스키마에 명시한다.",
+    "linkedReqIds": [
+      "REQ-F-004"
+    ],
+    "state": "HELD",
+    "reason": "TBD-05 요구사항 도메인 담당 확인 대기"
+  }
+]

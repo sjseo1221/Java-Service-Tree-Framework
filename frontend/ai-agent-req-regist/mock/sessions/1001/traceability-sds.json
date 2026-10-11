@@ -1,0 +1,450 @@
+[
+  {
+    "sourceId": "REQ-F-001",
+    "targetIds": [
+      "MOD-01",
+      "SCR-03",
+      "API-103",
+      "API-104",
+      "API-105",
+      "TBL-04",
+      "AGT-VAL-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-002",
+    "targetIds": [
+      "MOD-01",
+      "SCR-03",
+      "API-103",
+      "API-104",
+      "API-106",
+      "API-107",
+      "API-604",
+      "AGT-GATE-002",
+      "AGT-VAL-001",
+      "AGT-VAL-002",
+      "AGT-VAL-003"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-003",
+    "targetIds": [
+      "ARC-05",
+      "ARC-09",
+      "MOD-01",
+      "SCR-04",
+      "API-108",
+      "TBL-05",
+      "AGT-GATE-002"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-004",
+    "targetIds": [
+      "ARC-09",
+      "MOD-01",
+      "SCR-04",
+      "API-109",
+      "API-110",
+      "API-205",
+      "TBL-04",
+      "TBL-05"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-005",
+    "targetIds": [
+      "ARC-03",
+      "MOD-02",
+      "SCR-05",
+      "API-201",
+      "API-202",
+      "API-203",
+      "TBL-13",
+      "TBL-14"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-006",
+    "targetIds": [
+      "ARC-02",
+      "MOD-02",
+      "SCR-05",
+      "API-204",
+      "API-205",
+      "API-206",
+      "API-207",
+      "TBL-14",
+      "AGT-GATE-003",
+      "AGT-VAL-004",
+      "AGT-IMM-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-007",
+    "targetIds": [
+      "ARC-02",
+      "ARC-03",
+      "MOD-03",
+      "API-301",
+      "API-307",
+      "TBL-07",
+      "AGT-GATE-001",
+      "AGT-JOB-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-008",
+    "targetIds": [
+      "ARC-02",
+      "ARC-08",
+      "MOD-03",
+      "SCR-06",
+      "API-303",
+      "API-304",
+      "API-305",
+      "API-306",
+      "TBL-06",
+      "AGT-IMM-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-009",
+    "targetIds": [
+      "ARC-02",
+      "ARC-03",
+      "MOD-03",
+      "API-302",
+      "API-307",
+      "TBL-07",
+      "AGT-GATE-001",
+      "AGT-JOB-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-010",
+    "targetIds": [
+      "ARC-02",
+      "ARC-08",
+      "MOD-03",
+      "SCR-06",
+      "API-207",
+      "API-303",
+      "API-304",
+      "API-305",
+      "API-306",
+      "TBL-06",
+      "AGT-IMM-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-011",
+    "targetIds": [
+      "ARC-02",
+      "MOD-04",
+      "SCR-07",
+      "API-401",
+      "API-402",
+      "TBL-08",
+      "AGT-GATE-001",
+      "AGT-VAL-004"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-012",
+    "targetIds": [
+      "ARC-02",
+      "MOD-04",
+      "SCR-07",
+      "API-403",
+      "API-404",
+      "TBL-09",
+      "AGT-VAL-005"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-013",
+    "targetIds": [
+      "ARC-02",
+      "ARC-03",
+      "ARC-10",
+      "MOD-04",
+      "SCR-08",
+      "API-405",
+      "API-406",
+      "TBL-10",
+      "EXT-01",
+      "AGT-AUTH-002",
+      "AGT-STATE-001",
+      "AGT-JOB-002"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-014",
+    "targetIds": [
+      "MOD-04",
+      "SCR-08",
+      "API-407",
+      "API-408",
+      "API-409",
+      "TBL-10",
+      "TBL-11",
+      "EXT-01",
+      "AGT-VAL-004",
+      "AGT-EXT-002"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-015",
+    "targetIds": [
+      "ARC-02",
+      "ARC-10",
+      "MOD-04",
+      "SCR-08",
+      "API-410",
+      "TBL-11",
+      "EXT-04",
+      "AGT-SCOPE-001",
+      "AGT-EXT-002"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-016",
+    "targetIds": [
+      "ARC-04",
+      "MOD-05",
+      "SCR-09",
+      "API-501",
+      "API-502",
+      "EXT-02",
+      "AGT-EXT-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-017",
+    "targetIds": [
+      "ARC-04",
+      "MOD-06",
+      "SCR-10",
+      "API-503",
+      "API-504",
+      "EXT-03",
+      "AGT-PATH-001",
+      "AGT-EXT-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-018",
+    "targetIds": [
+      "MOD-07",
+      "SCR-11",
+      "API-403",
+      "API-505",
+      "API-506",
+      "API-507",
+      "EXT-05",
+      "AGT-PATH-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-019",
+    "targetIds": [
+      "MOD-07",
+      "SCR-11",
+      "API-508",
+      "API-509",
+      "API-510",
+      "EXT-05",
+      "AGT-PATH-001",
+      "AGT-STATE-002"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-020",
+    "targetIds": [
+      "MOD-14",
+      "SCR-02"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-021",
+    "targetIds": [
+      "MOD-14",
+      "SCR-01",
+      "API-102"
+    ]
+  },
+  {
+    "sourceId": "REQ-F-022",
+    "targetIds": [
+      "ARC-01",
+      "ARC-02",
+      "MOD-08",
+      "SCR-01",
+      "API-102",
+      "API-206",
+      "API-207",
+      "TBL-02",
+      "AGT-GATE-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-IF-001",
+    "targetIds": [
+      "ARC-04",
+      "MOD-09",
+      "API-406",
+      "API-409",
+      "EXT-01",
+      "AGT-AUTH-002",
+      "AGT-EXT-002"
+    ]
+  },
+  {
+    "sourceId": "REQ-IF-002",
+    "targetIds": [
+      "ARC-04",
+      "MOD-09",
+      "API-501",
+      "API-502",
+      "EXT-02",
+      "AGT-EXT-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-IF-003",
+    "targetIds": [
+      "ARC-04",
+      "MOD-09",
+      "API-503",
+      "API-504",
+      "EXT-03",
+      "AGT-PATH-001",
+      "AGT-EXT-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-IF-004",
+    "targetIds": [
+      "ARC-04",
+      "MOD-09",
+      "API-410",
+      "EXT-04",
+      "AGT-EXT-002"
+    ]
+  },
+  {
+    "sourceId": "REQ-DA-001",
+    "targetIds": [
+      "ARC-01",
+      "ARC-05",
+      "API-101",
+      "API-102",
+      "API-604",
+      "TBL-01",
+      "TBL-02",
+      "TBL-03",
+      "TBL-04"
+    ]
+  },
+  {
+    "sourceId": "REQ-DA-002",
+    "targetIds": [
+      "ARC-05",
+      "ARC-06",
+      "ARC-09",
+      "MOD-10",
+      "API-303",
+      "API-305",
+      "TBL-06",
+      "TBL-07",
+      "AGT-IMM-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-DA-003",
+    "targetIds": [
+      "ARC-05",
+      "API-404",
+      "API-407",
+      "TBL-09",
+      "TBL-10",
+      "TBL-11"
+    ]
+  },
+  {
+    "sourceId": "REQ-NF-001",
+    "targetIds": [
+      "ARC-06",
+      "ARC-08",
+      "MOD-10",
+      "SCR-06",
+      "API-304"
+    ]
+  },
+  {
+    "sourceId": "REQ-NF-002",
+    "targetIds": [
+      "ARC-01",
+      "ARC-03",
+      "MOD-13",
+      "API-201",
+      "API-601",
+      "AGT-JOB-001",
+      "AGT-JOB-002"
+    ]
+  },
+  {
+    "sourceId": "REQ-NF-003",
+    "targetIds": [
+      "MOD-13",
+      "MOD-14",
+      "API-605",
+      "AGT-I18N-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-NF-004",
+    "targetIds": [
+      "ARC-07",
+      "MOD-11",
+      "SCR-12",
+      "API-602",
+      "API-603",
+      "TBL-03",
+      "TBL-06",
+      "TBL-12",
+      "AGT-AUDIT-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-SE-001",
+    "targetIds": [
+      "ARC-06",
+      "ARC-07",
+      "ARC-10",
+      "MOD-12",
+      "API-105",
+      "API-304",
+      "TBL-12",
+      "AGT-AUTH-001"
+    ]
+  },
+  {
+    "sourceId": "REQ-SE-002",
+    "targetIds": [
+      "ARC-07",
+      "ARC-10",
+      "MOD-12",
+      "API-406",
+      "API-410",
+      "TBL-12",
+      "EXT-01",
+      "EXT-04",
+      "AGT-AUTH-002",
+      "AGT-SCOPE-001",
+      "AGT-SCOPE-002"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "errors": [
+    {
+      "rowNo": 4,
+      "column": "accept",
+      "code": "AGT-VAL-002",
+      "message": "필수값 누락: 수용 여부"
+    },
+    {
+      "rowNo": 6,
+      "column": "priority",
+      "code": "AGT-VAL-002",
+      "message": "코드값 위반: 'Highest' 는 [코드값] 시트에 없음(High · Medium · Low)"
+    },
+    {
+      "rowNo": 9,
+      "column": "reqId",
+      "code": "AGT-VAL-002",
+      "message": "ID 형식 위반: REQ-{유형}-{3자리 번호}"
+    },
+    {
+      "rowNo": 13,
+      "column": "name",
+      "code": "AGT-VAL-002",
+      "message": "길이 초과: 요구사항명 40자 이하"
+    }
+  ],
+  "warnings": [
+    {
+      "rowNo": 21,
+      "column": "reqId",
+      "code": "AGT-VAL-003",
+      "message": "중간 빈 행: 등록 시 건너뜀"
+    }
+  ],
+  "errorCount": 4,
+  "warningCount": 1
+}

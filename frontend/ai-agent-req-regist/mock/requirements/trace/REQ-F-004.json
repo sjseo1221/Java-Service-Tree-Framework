@@ -1,0 +1,43 @@
+{
+  "reqId": "REQ-F-004",
+  "upload": {
+    "at": "2026-10-03T10:05:00+09:00",
+    "actor": "이민규",
+    "ref": "rev 2",
+    "summary": "요구사항정의서_엑셀양식_v3_1_3.xlsx"
+  },
+  "registration": {
+    "at": "2026-10-03T10:12:00+09:00",
+    "actor": "이민규",
+    "ref": "rev 2",
+    "summary": "note: 원 요청 항목 2) 파생. → 원 요청 항목 2) 파생. [작성 가이드] '행 덮어쓰기 금지, 비고에 변경 이력' 규칙의 시스템 구현."
+  },
+  "review": {
+    "at": "2026-10-05T17:20:00+09:00",
+    "actor": "이민규",
+    "ref": "REVIEW",
+    "summary": null
+  },
+  "srs": {
+    "at": "2026-10-06T16:30:00+09:00",
+    "actor": "이민규",
+    "ref": "SRS v1 §3.1.4",
+    "summary": null
+  },
+  "sds": {
+    "at": "2026-10-07T15:10:00+09:00",
+    "actor": "이민규",
+    "ref": "SDS v1 MOD-01, SCR-04, API-109, API-110, API-205",
+    "summary": null
+  },
+  "executions": [
+    {
+      "at": "2026-10-10T09:31:00+09:00",
+      "actor": "이민규",
+      "ref": "8e2d4c6a-7b1f-4e3d-a5b9-000000000004",
+      "summary": null,
+      "state": "QUEUED"
+    }
+  ],
+  "commits": []
+}

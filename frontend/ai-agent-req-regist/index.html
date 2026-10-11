@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-locale="aiagent.app.title"></title>
+    <!-- 인라인 아이콘(별도 파일 요청 없음 — 콘솔 404 방지) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='4' y='7' width='16' height='12' rx='3' fill='%232477ff'/%3E%3Cpath d='M12 3v4' stroke='%232477ff' stroke-width='2'/%3E%3Ccircle cx='9' cy='12.5' r='1.5' fill='%23fff'/%3E%3Ccircle cx='15' cy='12.5' r='1.5' fill='%23fff'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="css/aiagent.css" />
+  </head>
+  <body>
+    <!-- 아이콘(외부 라이브러리 없음). 사용: <svg><use href="#ag-ico-NAME"/></svg> -->
+    <svg class="ag-symbols" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <symbol id="ag-ico-upload" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3" /></symbol>
+        <symbol id="ag-ico-register" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18M9 21V9" /></symbol>
+        <symbol id="ag-ico-review" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6" /><path d="M20 20l-4.5-4.5M9 11l1.5 1.5L13 10" /></symbol>
+        <symbol id="ag-ico-doc-gen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z" /><path d="M14 3v5h5M12 11v6M9 14h6" /></symbol>
+        <symbol id="ag-ico-doc-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z" /><path d="M14 3v5h5M9 15l2 2 4-4" /></symbol>
+        <symbol id="ag-ico-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11" /><circle cx="4.5" cy="6" r="1" /><circle cx="4.5" cy="12" r="1" /><circle cx="4.5" cy="18" r="1" /></symbol>
+        <symbol id="ag-ico-worker" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5" /><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 4.5a3.5 3.5 0 0 1 0 7M21 20c0-2.6-1.6-4.8-4-5.6" /></symbol>
+        <symbol id="ag-ico-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /><path d="M10 8.5v7l5.5-3.5z" /></symbol>
+        <symbol id="ag-ico-monitor" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="1.5" /><path d="M8 21h8M12 17v4M6 13l3-3 3 2 5-5" /></symbol>
+        <symbol id="ag-ico-knowledge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z" /><path d="M4 21V5M8 7h7M8 11h5" /></symbol>
+        <symbol id="ag-ico-agent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="3" /><path d="M12 3v4M9 12h.01M15 12h.01M9 16h6" /></symbol>
+        <symbol id="ag-ico-skill" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z" /></symbol>
+        <symbol id="ag-ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5" /></symbol>
+        <symbol id="ag-ico-progress" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 1-9 9" /></symbol>
+        <symbol id="ag-ico-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="8" /></symbol>
+        <symbol id="ag-ico-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></symbol>
+        <symbol id="ag-ico-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></symbol>
+        <symbol id="ag-ico-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17H2.5z" /><path d="M12 10v4M12 17.5h.01" /></symbol>
+        <symbol id="ag-ico-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9" /><path d="M12 11v5M12 7.5h.01" /></symbol>
+        <symbol id="ag-ico-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14" /></symbol>
+        <symbol id="ag-ico-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z" /><path d="M14 3v5h5" /></symbol>
+        <symbol id="ag-ico-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12M7 11l5 5 5-5M4 20h16" /></symbol>
+        <symbol id="ag-ico-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16" /></symbol>
+        <symbol id="ag-ico-audit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></symbol>
+      </defs>
+    </svg>
+
+    <a class="ag-skip" href="#aiagent_body" data-locale="aiagent.common.skipToContent"></a>
+
+    <header class="aiagent-header">
+      <div class="ag-hdr-title">
+        <h1 data-locale="aiagent.app.title"></h1>
+        <span class="ag-hdr-session" id="aiagent_hdr_session"></span>
+        <span class="ag-hdr-meta" id="aiagent_hdr_meta"></span>
+      </div>
+      <div class="ag-hdr-tools">
+        <a class="ag-btn ag-btn--plain" href="#/audit">
+          <svg class="ag-ico" aria-hidden="true" focusable="false"><use href="#ag-ico-audit" /></svg>
+          <span data-locale="aiagent.app.audit"></span>
+        </a>
+        <label class="ag-visually-hidden" for="aiagent_lang" data-locale="aiagent.app.lang"></label>
+        <select id="aiagent_lang" class="ag-input ag-input--sm" data-locale-attr="title:aiagent.app.lang">
+          <option value="ko" data-locale="aiagent.lang.ko"></option>
+          <option value="en" data-locale="aiagent.lang.en"></option>
+          <option value="ja" data-locale="aiagent.lang.ja"></option>
+        </select>
+      </div>
+    </header>
+
+    <!-- SCR-01 프로세스 플로우 헤더 -->
+    <section id="aiagent_flow" class="aiagent-flow">
+      <div class="ag-flow-scroll" id="aiagent_flow_scroll"></div>
+      <div id="aiagent_flow_guide" class="ag-flow-guide">
+        <div id="aiagent_flow_guide_text" class="ag-flow-guide-text"></div>
+        <div id="aiagent_flow_notice" class="ag-flow-notice" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <div id="aiagent_layout" class="aiagent-layout">
+      <!-- SCR-02 운영 기능 좌측 메뉴 -->
+      <nav id="aiagent_side" class="aiagent-side" data-locale-attr="aria-label:aiagent.menu.title">
+        <button type="button" id="aiagent_side_toggle" class="ag-side-toggle" aria-controls="aiagent_side_list" aria-expanded="true">
+          <svg class="ag-ico" aria-hidden="true" focusable="false"><use href="#ag-ico-menu" /></svg>
+        </button>
+        <div id="aiagent_side_list" class="ag-side-body"></div>
+      </nav>
+
+      <!-- 본문: 라우트별 view 가 이 영역만 교체 -->
+      <main id="aiagent_body" class="aiagent-body" tabindex="-1"></main>
+    </div>
+
+    <div id="aiagent_modal_root"></div>
+    <div id="aiagent_toast_root" class="ag-toast-root"></div>
+
+    <!-- 로드 순서(설계서 §1) -->
+    <script src="js/aiagent-config.js"></script>
+    <script src="js/core/events.js"></script>
+    <script src="js/core/i18n.js"></script>
+    <script src="js/core/mock-routes.js"></script>
+    <script src="js/core/mock-server.js"></script>
+    <script src="js/core/api.js"></script>
+    <script src="js/core/ui.js"></script>
+    <script src="js/core/poller.js"></script>
+    <script src="js/core/markdown.js"></script>
+    <script src="js/core/router.js"></script>
+    <script src="js/aiagent-flow.js"></script>
+    <script src="js/aiagent-sidemenu.js"></script>
+    <script src="js/views/aiagent-upload.js"></script>
+    <script src="js/views/aiagent-register.js"></script>
+    <script src="js/views/aiagent-review.js"></script>
+    <script src="js/views/aiagent-docviewer.js"></script>
+    <script src="js/views/aiagent-backlog.js"></script>
+    <script src="js/views/aiagent-execution.js"></script>
+    <script src="js/views/aiagent-monitor.js"></script>
+    <script src="js/views/aiagent-knowledge.js"></script>
+    <script src="js/views/aiagent-assets.js"></script>
+    <script src="js/views/aiagent-audit.js"></script>
+    <script src="js/aiagent-main.js"></script>
+  </body>
+</html>

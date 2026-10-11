@@ -1,0 +1,17 @@
+{
+  "path": "wiki/domain-subagent.md",
+  "markdown": "# 도메인 서브에이전트\n\n[[multiagent-orchestration-system]]의 ②계층 — 저장소를 **실제 개발할 때** 쓰는 도메인 특화 에이전트. 일반 Claude Code 서브에이전트로 동작하며 [[worker-pool]]과 별개 계층이다([[agent-layer-separation]]).\n\n## 구성원 (2026-07-29 확인)\n\n| 파일 | 도메인 |\n|---|---|\n| `frontend-expert.md` | vanilla JS · jQuery · Bootstrap 서버렌더링 프론트엔드 |\n| `backend-expert.md` | Backend-Core(Spring Boot 2.6 · TreeFramework · Feign · Kafka · POI) + Auto-Code 생성기(Telosys Velocity) |\n\n## ①계층과 다른 점\n\n- 오케스트레이션 워커 규약(무통신·file-as-memory·헤드리스)을 **따르지 않는다**\n- 직접 파일을 쓰고, 필요하면 사용자에게 질문한다 — one-shot 헤드리스가 아니므로 질문 채널이 있다\n- `workers_approved` 승인 게이트 대상이 아니다\n- `backends.json`에 등록하지 않는다\n- [[capability-slot]]에 배정되지 않는다 — 도메인 전문성은 슬롯이 아니다\n\n## 추가 방법\n\n`.claude/agents/README.md` 표에 한 줄 추가 + `.claude/agents/<name>.md` 배치. 정본 5개(Worker Pool 문서)는 건드리지 않는다.\n\n## 산출물 기록\n\n게이트 밖이지만 실제 호출이 발생하면 `tasks/<task>/workers/<role>/`에 기록하는 것이 실전 관행이다. 게이트 대상 여부와 기록 위치는 별개 축 — 자세한 논거는 [[agent-layer-separation]].\n\n## 관련\n\n- [[multiagent-subagent-audit-2026-07-29]] — frontend-expert의 `workers/` 배치가 위반이 아님을 확인\n",
+  "frontmatter": {
+    "type": "concept",
+    "created": "2026-07-29",
+    "updated": "2026-07-29",
+    "sources": [
+      "raw/2026-07-29-multiagent-subagent-audit-2026-07-29.md"
+    ],
+    "aliases": [
+      "도메인 서브에이전트",
+      "2계층"
+    ]
+  },
+  "lastModified": "2026-07-29T18:20:22+09:00"
+}

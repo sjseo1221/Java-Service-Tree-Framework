@@ -1,0 +1,4 @@
+{
+  "name": "sample-unlinked-skill",
+  "content": "---\nname: sample-unlinked-skill\ndescription: >-\n  mock 전용 예시 Skill. 어떤 서브 에이전트에도 연결되지 않은 상태(미연결)를 보여 주기 위한 합성 데이터다.\n---\n\n# sample-unlinked-skill\n\n이 파일은 실제 `.claude/skills/` 에 없는 합성 예시다(설계서 I-13).\n"
+}

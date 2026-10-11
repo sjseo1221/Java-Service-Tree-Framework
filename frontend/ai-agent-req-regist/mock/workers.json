@@ -1,0 +1,56 @@
+{
+  "workers": [
+    {
+      "name": "claude-main",
+      "slot": "strategist",
+      "approved": true
+    },
+    {
+      "name": "claude-reviewer",
+      "slot": "reviewer",
+      "approved": true
+    }
+  ],
+  "subAgents": [
+    {
+      "name": "ai-expert",
+      "description": "A-RMS 생성·검색 AI 모듈 `Java-Service-Tree-Framework-AI` 전문가",
+      "enabled": true
+    },
+    {
+      "name": "backend-expert",
+      "description": "A-RMS Backend-Core(Java-Service-Tree-Framework-Backend-Core) 백엔드 전문가",
+      "enabled": true
+    },
+    {
+      "name": "broker-expert",
+      "description": "A-RMS 실시간 협업 브로커 `Java-Service-Tree-Framework-Broker-Hub` 전문가",
+      "enabled": true
+    },
+    {
+      "name": "config-expert",
+      "description": "A-RMS 중앙 설정·스케줄 허브 `Java-Service-Tree-Framework-Global-Config` 전문가",
+      "enabled": true
+    },
+    {
+      "name": "database-expert",
+      "description": "A-RMS(MySQL 8) 스키마 전문가",
+      "enabled": true
+    },
+    {
+      "name": "engine-expert",
+      "description": "A-RMS 수집·집계 엔진(Java-Service-Tree-Framework-Engine-Fire) 전문가",
+      "enabled": true
+    },
+    {
+      "name": "frontend-expert",
+      "description": "vanilla JavaScript · jQuery · Bootstrap 기반의 서버렌더링/멀티페이지 웹 UI 구현 전문가",
+      "enabled": true
+    },
+    {
+      "name": "middleproxy-expert",
+      "description": "A-RMS API 게이트웨이 `Java-Service-Tree-Framework-Middle-Proxy` 전문가",
+      "enabled": true
+    }
+  ]
+}

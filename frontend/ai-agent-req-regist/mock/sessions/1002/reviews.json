@@ -1,0 +1,12 @@
+[
+  {
+    "round": 1,
+    "startedAt": "2026-10-09T14:30:00+09:00",
+    "finishedAt": "2026-10-09T14:41:00+09:00",
+    "findingCount": {
+      "high": 3,
+      "medium": 3,
+      "low": 2
+    }
+  }
+]

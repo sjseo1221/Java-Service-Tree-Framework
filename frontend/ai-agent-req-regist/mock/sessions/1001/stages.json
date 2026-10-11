@@ -1,0 +1,62 @@
+[
+  {
+    "stage": "UPLOAD",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-02T09:40:00+09:00"
+  },
+  {
+    "stage": "REGISTER",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-03T10:15:00+09:00"
+  },
+  {
+    "stage": "REVIEW",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-05T17:20:00+09:00"
+  },
+  {
+    "stage": "SRS_GENERATE",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-06T11:05:00+09:00"
+  },
+  {
+    "stage": "SRS_CONFIRM",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-06T16:30:00+09:00"
+  },
+  {
+    "stage": "SDS_CONFIRM",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-07T15:10:00+09:00"
+  },
+  {
+    "stage": "BACKLOG",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-07T15:10:00+09:00"
+  },
+  {
+    "stage": "ASSIGN",
+    "status": "COMPLETED",
+    "confirmedBy": "이민규",
+    "confirmedAt": "2026-10-08T10:45:00+09:00"
+  },
+  {
+    "stage": "EXECUTE",
+    "status": "RUNNING",
+    "confirmedBy": null,
+    "confirmedAt": null
+  },
+  {
+    "stage": "MONITOR",
+    "status": "WAITING",
+    "confirmedBy": null,
+    "confirmedAt": null
+  }
+]

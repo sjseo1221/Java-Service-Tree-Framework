@@ -95,12 +95,12 @@ MAT_ROOT=<설치한-폴더> mat
 개인 사용 및 학습 목적.
 
 # 마법의 4줄
-요구사항정의서_엑셀양식_v3_1_3.xlsx 의 {REQ-LANDING-FUNC-02} 요구사항을 읽고
+docs/file/요구사항정의서_엑셀양식_v3_1_3.xlsx 의 {REQ-LANDING-FUNC-02} 요구사항을 읽고
 분석하고, 검토해서, 결과를 알려줘
 
-요구사항정의서_엑셀양식_v3_1_3.xlsx 의 {REQ-LANDING-FUNC-02} 요구사항을 기준으로
-요구사항_TASK_전환_Format.md
-요구사항_TASK_전환_Sample.md
+docs/file/요구사항정의서_엑셀양식_v3_1_3.xlsx 의 {REQ-LANDING-FUNC-02} 요구사항을 기준으로
+docs/file/요구사항_TASK_전환_Format.md
+docs/file/요구사항_TASK_전환_Sample.md
 두개의 md 파일을 참고하여 작업을 만들고
 만들어진 작업을 진행해 줘. 
 승인이나 결정이 필요한 내용은 나에게 물어보지 말고 우선 진행을 하고,
@@ -125,5 +125,5 @@ mat 는 인텔리제이 아래 terminal 에서 진행한다.
 1. 워커와 서브에이전트 목록을 알려줘
 2. Task 목록을 깨끗하게 정리해 줘 ( 전체 비우기, 규칙문서도 삭제 )
 
-요구사항정의서_엑셀양식_v3_1_3.xlsx 의 {REQ-AIAGENT-DEV-02} 요구사항을 기준으로
+docs/file/요구사항정의서_엑셀양식_v3_1_3.xlsx 의 {REQ-AIAGENT-DEV-02} 요구사항을 기준으로
 ( Project Charter, SRS )를 기준으로 작성된 작업을 진행해 줘

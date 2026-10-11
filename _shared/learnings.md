@@ -142,3 +142,8 @@
 **교훈**: 사용자가 지정한 서브에이전트(예: plan-challenger · review-expert)가 세션 에이전트 목록에 없으면, 먼저 로컬 체크아웃이 origin 보다 뒤처져 정의 파일이 빠진 것인지 `git log HEAD..origin/main -- .claude/agents/` 로 확인한다. 확인 없이 진행할 땐 같은 워커 동시 호출 금지(routing.md) 때문에 claude-reviewer 1회 호출 안에 이름별 독립 섹션(서로 결과 미참조)으로 접고 [DECISION] 에 남긴다.
 **근거**: ai-agent-process-row-height — 두 에이전트는 origin/main 에 이미 추가돼 있었으나 로컬 미반영으로 세션 미등록. 1회 호출로 두 관점 확보, 판정 승인.
 **worker**: claude-main · claude-reviewer
+
+## [2026-10-10] [brief-limit-korean-pdf]
+**교훈**: 한글 brief는 고정 "Worker 행동 규약" 블록과 경로만으로도 600자 가까이 써서 G4(1200자)에 금방 걸린다. 입력 경로는 `base: tasks/<task>/` 한 줄 + 상대 경로로 적으면 한 번에 줄어든다. 원문 PDF를 워커에게 넘길 때는 `pdftotext -enc UTF-8`을 쓴다 — `-layout`은 이 환경에서 한글 글리프가 공백으로 깨진다.
+**근거**: hansan-kickoff-plan에서 brief 1458→1178자 축소에 3회 재작성, claude-reviewer가 `-layout` 추출 실패 후 `-enc UTF-8`로 재추출.
+**worker**: claude-main 1회, claude-reviewer 1회

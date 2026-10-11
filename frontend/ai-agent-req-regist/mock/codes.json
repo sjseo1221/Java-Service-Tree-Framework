@@ -1,0 +1,518 @@
+[
+  {
+    "group": "STAGE_STATUS",
+    "code": "LOCKED",
+    "label": "잠김",
+    "sortOrder": 1
+  },
+  {
+    "group": "STAGE_STATUS",
+    "code": "WAITING",
+    "label": "대기",
+    "sortOrder": 2
+  },
+  {
+    "group": "STAGE_STATUS",
+    "code": "RUNNING",
+    "label": "진행중",
+    "sortOrder": 3
+  },
+  {
+    "group": "STAGE_STATUS",
+    "code": "COMPLETED",
+    "label": "완료",
+    "sortOrder": 4
+  },
+  {
+    "group": "ARTIFACT_TYPE",
+    "code": "SRS",
+    "label": "SRS",
+    "sortOrder": 1
+  },
+  {
+    "group": "ARTIFACT_TYPE",
+    "code": "SDS",
+    "label": "SDS",
+    "sortOrder": 2
+  },
+  {
+    "group": "ARTIFACT_TYPE",
+    "code": "PDF",
+    "label": "PDF",
+    "sortOrder": 3
+  },
+  {
+    "group": "ARTIFACT_TYPE",
+    "code": "CODE_DIFF",
+    "label": "코드 변경분",
+    "sortOrder": 4
+  },
+  {
+    "group": "ARTIFACT_TYPE",
+    "code": "LOG",
+    "label": "로그",
+    "sortOrder": 5
+  },
+  {
+    "group": "FINDING_ASPECT",
+    "code": "AMBIGUITY",
+    "label": "모호성",
+    "sortOrder": 1
+  },
+  {
+    "group": "FINDING_ASPECT",
+    "code": "DUPLICATE",
+    "label": "중복",
+    "sortOrder": 2
+  },
+  {
+    "group": "FINDING_ASPECT",
+    "code": "CONFLICT",
+    "label": "상충",
+    "sortOrder": 3
+  },
+  {
+    "group": "FINDING_ASPECT",
+    "code": "MISSING",
+    "label": "누락",
+    "sortOrder": 4
+  },
+  {
+    "group": "FINDING_ASPECT",
+    "code": "UNVERIFIABLE",
+    "label": "검증불가",
+    "sortOrder": 5
+  },
+  {
+    "group": "FINDING_SEVERITY",
+    "code": "HIGH",
+    "label": "높음",
+    "sortOrder": 1
+  },
+  {
+    "group": "FINDING_SEVERITY",
+    "code": "MEDIUM",
+    "label": "중간",
+    "sortOrder": 2
+  },
+  {
+    "group": "FINDING_SEVERITY",
+    "code": "LOW",
+    "label": "낮음",
+    "sortOrder": 3
+  },
+  {
+    "group": "FINDING_STATE",
+    "code": "OPEN",
+    "label": "미처리",
+    "sortOrder": 1
+  },
+  {
+    "group": "FINDING_STATE",
+    "code": "ACCEPTED",
+    "label": "수용",
+    "sortOrder": 2
+  },
+  {
+    "group": "FINDING_STATE",
+    "code": "REJECTED",
+    "label": "반려",
+    "sortOrder": 3
+  },
+  {
+    "group": "FINDING_STATE",
+    "code": "HELD",
+    "label": "보류",
+    "sortOrder": 4
+  },
+  {
+    "group": "EXEC_STATE",
+    "code": "QUEUED",
+    "label": "대기",
+    "sortOrder": 1
+  },
+  {
+    "group": "EXEC_STATE",
+    "code": "RUNNING",
+    "label": "실행중",
+    "sortOrder": 2
+  },
+  {
+    "group": "EXEC_STATE",
+    "code": "SUCCEEDED",
+    "label": "성공",
+    "sortOrder": 3
+  },
+  {
+    "group": "EXEC_STATE",
+    "code": "FAILED",
+    "label": "실패",
+    "sortOrder": 4
+  },
+  {
+    "group": "EXEC_STATE",
+    "code": "CANCELLED",
+    "label": "취소",
+    "sortOrder": 5
+  },
+  {
+    "group": "EXEC_STATE",
+    "code": "NONE",
+    "label": "미실행",
+    "sortOrder": 6
+  },
+  {
+    "group": "JOB_STATE",
+    "code": "QUEUED",
+    "label": "대기",
+    "sortOrder": 1
+  },
+  {
+    "group": "JOB_STATE",
+    "code": "RUNNING",
+    "label": "진행중",
+    "sortOrder": 2
+  },
+  {
+    "group": "JOB_STATE",
+    "code": "SUCCEEDED",
+    "label": "완료",
+    "sortOrder": 3
+  },
+  {
+    "group": "JOB_STATE",
+    "code": "FAILED",
+    "label": "실패",
+    "sortOrder": 4
+  },
+  {
+    "group": "ACCEPT",
+    "code": "수용",
+    "label": "수용",
+    "sortOrder": 1
+  },
+  {
+    "group": "ACCEPT",
+    "code": "부분 수용",
+    "label": "부분 수용",
+    "sortOrder": 2
+  },
+  {
+    "group": "ACCEPT",
+    "code": "미수용",
+    "label": "미수용",
+    "sortOrder": 3
+  },
+  {
+    "group": "ACCEPT",
+    "code": "보류",
+    "label": "보류",
+    "sortOrder": 4
+  },
+  {
+    "group": "ACCEPT",
+    "code": "검토중",
+    "label": "검토중",
+    "sortOrder": 5
+  },
+  {
+    "group": "PRIORITY",
+    "code": "High",
+    "label": "High",
+    "sortOrder": 1
+  },
+  {
+    "group": "PRIORITY",
+    "code": "Medium",
+    "label": "Medium",
+    "sortOrder": 2
+  },
+  {
+    "group": "PRIORITY",
+    "code": "Low",
+    "label": "Low",
+    "sortOrder": 3
+  },
+  {
+    "group": "PROGRESS",
+    "code": "기획중",
+    "label": "기획중",
+    "sortOrder": 1
+  },
+  {
+    "group": "PROGRESS",
+    "code": "분석중",
+    "label": "분석중",
+    "sortOrder": 2
+  },
+  {
+    "group": "PROGRESS",
+    "code": "설계중",
+    "label": "설계중",
+    "sortOrder": 3
+  },
+  {
+    "group": "PROGRESS",
+    "code": "개발중",
+    "label": "개발중",
+    "sortOrder": 4
+  },
+  {
+    "group": "PROGRESS",
+    "code": "테스트중",
+    "label": "테스트중",
+    "sortOrder": 5
+  },
+  {
+    "group": "PROGRESS",
+    "code": "완료",
+    "label": "완료",
+    "sortOrder": 6
+  },
+  {
+    "group": "PROGRESS",
+    "code": "보류",
+    "label": "보류",
+    "sortOrder": 7
+  },
+  {
+    "group": "PROGRESS",
+    "code": "취소",
+    "label": "취소",
+    "sortOrder": 8
+  },
+  {
+    "group": "WORK_TYPE",
+    "code": "CODE",
+    "label": "코드 구현",
+    "sortOrder": 1
+  },
+  {
+    "group": "WORK_TYPE",
+    "code": "ANALYSIS",
+    "label": "분석·설계",
+    "sortOrder": 2
+  },
+  {
+    "group": "WORK_TYPE",
+    "code": "DOC",
+    "label": "문서",
+    "sortOrder": 3
+  },
+  {
+    "group": "WORKER_STATE",
+    "code": "ERROR",
+    "label": "오류",
+    "sortOrder": 1
+  },
+  {
+    "group": "WORKER_STATE",
+    "code": "RETRY",
+    "label": "재시도",
+    "sortOrder": 2
+  },
+  {
+    "group": "WORKER_STATE",
+    "code": "DONE",
+    "label": "완료",
+    "sortOrder": 3
+  },
+  {
+    "group": "WORKER_STATE",
+    "code": "RUNNING",
+    "label": "실행중",
+    "sortOrder": 4
+  },
+  {
+    "group": "WORKER_STATE",
+    "code": "WAITING",
+    "label": "대기",
+    "sortOrder": 5
+  },
+  {
+    "group": "TASK_STATUS",
+    "code": "pending",
+    "label": "대기",
+    "sortOrder": 1
+  },
+  {
+    "group": "TASK_STATUS",
+    "code": "in_progress",
+    "label": "진행중",
+    "sortOrder": 2
+  },
+  {
+    "group": "TASK_STATUS",
+    "code": "done",
+    "label": "완료",
+    "sortOrder": 3
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "UPLOAD",
+    "label": "업로드",
+    "sortOrder": 1
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "REGISTER",
+    "label": "등록",
+    "sortOrder": 2
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "REVIEW_RUN",
+    "label": "검토 실행",
+    "sortOrder": 3
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "FINDING_DISPOSE",
+    "label": "지적 처리",
+    "sortOrder": 4
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "REQ_EDIT",
+    "label": "요구사항 수정",
+    "sortOrder": 5
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "STAGE_CONFIRM",
+    "label": "단계 확정",
+    "sortOrder": 6
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "STAGE_RELEASE",
+    "label": "확정 해제",
+    "sortOrder": 7
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "ARTIFACT_GENERATE",
+    "label": "산출물 생성",
+    "sortOrder": 8
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "ARTIFACT_CONFIRM",
+    "label": "산출물 확정",
+    "sortOrder": 9
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "ARTIFACT_REJECT",
+    "label": "산출물 반려",
+    "sortOrder": 10
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "BACKLOG_EXCLUDE",
+    "label": "실행 제외",
+    "sortOrder": 11
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "ASSIGN",
+    "label": "워커 배정",
+    "sortOrder": 12
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "EXEC_REQUEST",
+    "label": "실행 요청",
+    "sortOrder": 13
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "EXEC_CANCEL",
+    "label": "실행 취소",
+    "sortOrder": 14
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "SCM_PUSH",
+    "label": "형상 반영",
+    "sortOrder": 15
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "ASSET_SAVE",
+    "label": "정의 파일 저장",
+    "sortOrder": 16
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "ASSET_DISABLE",
+    "label": "정의 파일 비활성",
+    "sortOrder": 17
+  },
+  {
+    "group": "AUDIT_ACTION",
+    "code": "ASSET_ENABLE",
+    "label": "정의 파일 재활성",
+    "sortOrder": 18
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "UPLOAD",
+    "label": "업로드",
+    "sortOrder": 1
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "REVIEW",
+    "label": "검토 회차",
+    "sortOrder": 2
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "FINDING",
+    "label": "지적사항",
+    "sortOrder": 3
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "REQUIREMENT",
+    "label": "요구사항",
+    "sortOrder": 4
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "STAGE",
+    "label": "단계",
+    "sortOrder": 5
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "ARTIFACT",
+    "label": "산출물",
+    "sortOrder": 6
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "BACKLOG_ITEM",
+    "label": "구현 항목",
+    "sortOrder": 7
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "EXECUTION",
+    "label": "실행",
+    "sortOrder": 8
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "AGENT",
+    "label": "서브 에이전트",
+    "sortOrder": 9
+  },
+  {
+    "group": "TARGET_TYPE",
+    "code": "SKILL",
+    "label": "Skill",
+    "sortOrder": 10
+  }
+]

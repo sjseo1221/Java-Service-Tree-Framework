@@ -1,0 +1,68 @@
+[
+  {
+    "name": "ai-expert",
+    "agent": "ai-expert",
+    "description": "A-RMS 생성·검색 AI 저장소(Java-Service-Tree-Framework-AI)의 작업 규약.",
+    "enabled": true,
+    "updatedAt": "2026-09-22T17:02:23+09:00",
+    "referencedBy": []
+  },
+  {
+    "name": "arms-backend-core",
+    "agent": "backend-expert",
+    "description": "A-RMS 백엔드 저장소(Java-Service-Tree-Framework-Backend-Core)의 서버 작업 규약.",
+    "enabled": true,
+    "updatedAt": "2026-09-22T17:02:23+09:00",
+    "referencedBy": [
+      "5a9c1e7b-3f2d-4a6e-b8c0-000000000003"
+    ]
+  },
+  {
+    "name": "arms-frontend-web",
+    "agent": "frontend-expert",
+    "description": "A-RMS 프론트엔드 저장소(Java-Service-Tree-Framework-Frontend-Web)의 화면 작업 규약.",
+    "enabled": true,
+    "updatedAt": "2026-09-22T15:30:21+09:00",
+    "referencedBy": []
+  },
+  {
+    "name": "broker-expert",
+    "agent": "broker-expert",
+    "description": "A-RMS 실시간 협업 브로커 저장소(Java-Service-Tree-Framework-Broker-Hub)의 작업 규약.",
+    "enabled": true,
+    "updatedAt": "2026-09-22T17:02:23+09:00",
+    "referencedBy": []
+  },
+  {
+    "name": "config-expert",
+    "agent": "config-expert",
+    "description": "A-RMS 중앙 설정·스케줄 허브 저장소(Java-Service-Tree-Framework-Global-Config)의 작업 규약.",
+    "enabled": true,
+    "updatedAt": "2026-09-22T17:02:23+09:00",
+    "referencedBy": []
+  },
+  {
+    "name": "engine-expert",
+    "agent": "engine-expert",
+    "description": "A-RMS 수집·집계 엔진 저장소(Java-Service-Tree-Framework-Engine-Fire)의 작업 규약.",
+    "enabled": true,
+    "updatedAt": "2026-09-22T17:02:23+09:00",
+    "referencedBy": []
+  },
+  {
+    "name": "middleproxy-expert",
+    "agent": "middleproxy-expert",
+    "description": "A-RMS API 게이트웨이 저장소(Java-Service-Tree-Framework-Middle-Proxy)의 작업 규약.",
+    "enabled": true,
+    "updatedAt": "2026-09-22T17:02:23+09:00",
+    "referencedBy": []
+  },
+  {
+    "name": "sample-unlinked-skill",
+    "agent": null,
+    "description": "mock 전용 예시 Skill.",
+    "enabled": true,
+    "updatedAt": "2026-10-11T09:00:00+09:00",
+    "referencedBy": []
+  }
+]

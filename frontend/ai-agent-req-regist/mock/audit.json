@@ -1,0 +1,447 @@
+[
+  {
+    "auditId": 50001,
+    "actedAt": "2026-10-02T09:30:00+09:00",
+    "actor": "이민규",
+    "action": "UPLOAD",
+    "targetType": "UPLOAD",
+    "targetId": "rev 1",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50002,
+    "actedAt": "2026-10-02T09:40:00+09:00",
+    "actor": "이민규",
+    "action": "REGISTER",
+    "targetType": "UPLOAD",
+    "targetId": "rev 1",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50003,
+    "actedAt": "2026-10-03T10:05:00+09:00",
+    "actor": "이민규",
+    "action": "UPLOAD",
+    "targetType": "UPLOAD",
+    "targetId": "rev 2",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50004,
+    "actedAt": "2026-10-03T10:12:00+09:00",
+    "actor": "이민규",
+    "action": "REGISTER",
+    "targetType": "UPLOAD",
+    "targetId": "rev 2",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50005,
+    "actedAt": "2026-10-04T10:00:00+09:00",
+    "actor": "이민규",
+    "action": "REVIEW_RUN",
+    "targetType": "REVIEW",
+    "targetId": "round 1",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": {
+      "model": "claude-main",
+      "inputSummary": "rev 2 요구사항 35건 · 범위 ALL",
+      "generatedAt": "2026-10-04T10:12:00+09:00"
+    }
+  },
+  {
+    "auditId": 50006,
+    "actedAt": "2026-10-04T14:05:00+09:00",
+    "actor": "이민규",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-1-01",
+    "reqId": "REQ-F-002",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50007,
+    "actedAt": "2026-10-04T14:20:00+09:00",
+    "actor": "양형석",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-1-02",
+    "reqId": "REQ-F-003",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50008,
+    "actedAt": "2026-10-04T14:35:00+09:00",
+    "actor": "이민규",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-1-03",
+    "reqId": "REQ-F-005",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50009,
+    "actedAt": "2026-10-04T15:05:00+09:00",
+    "actor": "양형석",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-1-04",
+    "reqId": "REQ-F-012",
+    "reason": "capability-profile 개정 일정 확인 후 반영",
+    "aiMeta": null
+  },
+  {
+    "auditId": 50010,
+    "actedAt": "2026-10-04T15:20:00+09:00",
+    "actor": "이민규",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-1-05",
+    "reqId": "REQ-F-021",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50011,
+    "actedAt": "2026-10-04T15:35:00+09:00",
+    "actor": "양형석",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-1-06",
+    "reqId": "REQ-NF-002",
+    "reason": "TBD-02 설정 기본값 합의 대기",
+    "aiMeta": null
+  },
+  {
+    "auditId": 50012,
+    "actedAt": "2026-10-04T16:05:00+09:00",
+    "actor": "이민규",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-1-07",
+    "reqId": "REQ-F-017",
+    "reason": "1단계 범위로 고정",
+    "aiMeta": null
+  },
+  {
+    "auditId": 50013,
+    "actedAt": "2026-10-04T16:20:00+09:00",
+    "actor": "양형석",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-1-08",
+    "reqId": "REQ-F-003",
+    "reason": "TBD-05 요구사항 도메인 담당 확인 대기",
+    "aiMeta": null
+  },
+  {
+    "auditId": 50014,
+    "actedAt": "2026-10-04T16:40:00+09:00",
+    "actor": "이민규",
+    "action": "REQ_EDIT",
+    "targetType": "REQUIREMENT",
+    "targetId": "REQ-F-002",
+    "reqId": "REQ-F-002",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50015,
+    "actedAt": "2026-10-05T14:00:00+09:00",
+    "actor": "이민규",
+    "action": "REVIEW_RUN",
+    "targetType": "REVIEW",
+    "targetId": "round 2",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": {
+      "model": "claude-main",
+      "inputSummary": "rev 2 요구사항 35건 · 범위 ALL · 1회차 처리 결과 반영",
+      "generatedAt": "2026-10-05T14:06:00+09:00"
+    }
+  },
+  {
+    "auditId": 50016,
+    "actedAt": "2026-10-05T15:10:00+09:00",
+    "actor": "이민규",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-2-01",
+    "reqId": "REQ-NF-002",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50017,
+    "actedAt": "2026-10-05T16:10:00+09:00",
+    "actor": "이민규",
+    "action": "FINDING_DISPOSE",
+    "targetType": "FINDING",
+    "targetId": "FND-1001-2-02",
+    "reqId": "REQ-F-017",
+    "reason": "1단계 범위로 고정(1회차 결정 유지)",
+    "aiMeta": null
+  },
+  {
+    "auditId": 50018,
+    "actedAt": "2026-10-05T17:20:00+09:00",
+    "actor": "이민규",
+    "action": "STAGE_CONFIRM",
+    "targetType": "STAGE",
+    "targetId": "REVIEW",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50019,
+    "actedAt": "2026-10-06T10:40:00+09:00",
+    "actor": "이민규",
+    "action": "ARTIFACT_GENERATE",
+    "targetType": "ARTIFACT",
+    "targetId": "3f6c2a10-8d4e-4b7a-9c21-5e0a7d1b2c01",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": {
+      "model": "claude-main",
+      "inputSummary": "확정 요구사항 35건 → SRS",
+      "generatedAt": "2026-10-06T11:05:00+09:00"
+    }
+  },
+  {
+    "auditId": 50020,
+    "actedAt": "2026-10-06T16:30:00+09:00",
+    "actor": "이민규",
+    "action": "ARTIFACT_CONFIRM",
+    "targetType": "ARTIFACT",
+    "targetId": "3f6c2a10-8d4e-4b7a-9c21-5e0a7d1b2c01",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50021,
+    "actedAt": "2026-10-07T11:10:00+09:00",
+    "actor": "이민규",
+    "action": "ARTIFACT_GENERATE",
+    "targetType": "ARTIFACT",
+    "targetId": "7a1e9b44-2c3d-4f5e-8a90-1b2c3d4e5f02",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": {
+      "model": "claude-main",
+      "inputSummary": "확정 SRS v1 → SDS",
+      "generatedAt": "2026-10-07T11:40:00+09:00"
+    }
+  },
+  {
+    "auditId": 50022,
+    "actedAt": "2026-10-07T15:10:00+09:00",
+    "actor": "이민규",
+    "action": "ARTIFACT_CONFIRM",
+    "targetType": "ARTIFACT",
+    "targetId": "7a1e9b44-2c3d-4f5e-8a90-1b2c3d4e5f02",
+    "reqId": null,
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50023,
+    "actedAt": "2026-10-08T10:30:00+09:00",
+    "actor": "이민규",
+    "action": "BACKLOG_EXCLUDE",
+    "targetType": "BACKLOG_ITEM",
+    "targetId": "7030",
+    "reqId": "REQ-NF-001",
+    "reason": "PDF 렌더링 품질은 SRS · SDS 생성 작업에서 함께 검증하므로 별도 실행 대상에서 제외",
+    "aiMeta": null
+  },
+  {
+    "auditId": 50024,
+    "actedAt": "2026-10-08T10:36:00+09:00",
+    "actor": "이민규",
+    "action": "ASSIGN",
+    "targetType": "BACKLOG_ITEM",
+    "targetId": "7001",
+    "reqId": "REQ-F-001",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50025,
+    "actedAt": "2026-10-08T10:37:00+09:00",
+    "actor": "이민규",
+    "action": "ASSIGN",
+    "targetType": "BACKLOG_ITEM",
+    "targetId": "7002",
+    "reqId": "REQ-F-002",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50026,
+    "actedAt": "2026-10-08T10:38:00+09:00",
+    "actor": "이민규",
+    "action": "ASSIGN",
+    "targetType": "BACKLOG_ITEM",
+    "targetId": "7003",
+    "reqId": "REQ-F-003",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50027,
+    "actedAt": "2026-10-08T10:39:00+09:00",
+    "actor": "이민규",
+    "action": "ASSIGN",
+    "targetType": "BACKLOG_ITEM",
+    "targetId": "7004",
+    "reqId": "REQ-F-004",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50028,
+    "actedAt": "2026-10-08T10:40:00+09:00",
+    "actor": "이민규",
+    "action": "ASSIGN",
+    "targetType": "BACKLOG_ITEM",
+    "targetId": "7005",
+    "reqId": "REQ-F-005",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50029,
+    "actedAt": "2026-10-08T10:41:00+09:00",
+    "actor": "이민규",
+    "action": "ASSIGN",
+    "targetType": "BACKLOG_ITEM",
+    "targetId": "7006",
+    "reqId": "REQ-F-006",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50030,
+    "actedAt": "2026-10-08T10:42:00+09:00",
+    "actor": "이민규",
+    "action": "ASSIGN",
+    "targetType": "BACKLOG_ITEM",
+    "targetId": "7007",
+    "reqId": "REQ-F-007",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50031,
+    "actedAt": "2026-10-08T10:58:00+09:00",
+    "actor": "이민규",
+    "action": "EXEC_REQUEST",
+    "targetType": "EXECUTION",
+    "targetId": "c0a8e3f1-1d2b-4c3a-8e4f-000000000001",
+    "reqId": "REQ-F-001",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50032,
+    "actedAt": "2026-10-08T13:10:00+09:00",
+    "actor": "양형석",
+    "action": "SCM_PUSH",
+    "targetType": "EXECUTION",
+    "targetId": "c0a8e3f1-1d2b-4c3a-8e4f-000000000001",
+    "reqId": "REQ-F-001",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50033,
+    "actedAt": "2026-10-08T13:28:00+09:00",
+    "actor": "이민규",
+    "action": "EXEC_REQUEST",
+    "targetType": "EXECUTION",
+    "targetId": "d4b7f2a9-5e6c-4d8b-9a1f-000000000002",
+    "reqId": "REQ-F-002",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50034,
+    "actedAt": "2026-10-09T09:58:00+09:00",
+    "actor": "이민규",
+    "action": "EXEC_REQUEST",
+    "targetType": "EXECUTION",
+    "targetId": "f6a8c0e2-4b6d-4e8f-9a2c-000000000007",
+    "reqId": "REQ-F-007",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50035,
+    "actedAt": "2026-10-09T12:58:00+09:00",
+    "actor": "이민규",
+    "action": "EXEC_REQUEST",
+    "targetType": "EXECUTION",
+    "targetId": "b3f5a7c9-2e4d-4f6a-8c1b-000000000005",
+    "reqId": "REQ-F-005",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50036,
+    "actedAt": "2026-10-09T15:58:00+09:00",
+    "actor": "이민규",
+    "action": "EXEC_REQUEST",
+    "targetType": "EXECUTION",
+    "targetId": "1c3e5a7b-9d2f-4b4c-8e6a-000000000006",
+    "reqId": "REQ-F-006",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50037,
+    "actedAt": "2026-10-09T16:20:00+09:00",
+    "actor": "양형석",
+    "action": "EXEC_CANCEL",
+    "targetType": "EXECUTION",
+    "targetId": "1c3e5a7b-9d2f-4b4c-8e6a-000000000006",
+    "reqId": "REQ-F-006",
+    "reason": "검토 확정 해제 흐름 재설계 후 재실행 예정",
+    "aiMeta": null
+  },
+  {
+    "auditId": 50038,
+    "actedAt": "2026-10-10T09:29:00+09:00",
+    "actor": "이민규",
+    "action": "EXEC_REQUEST",
+    "targetType": "EXECUTION",
+    "targetId": "5a9c1e7b-3f2d-4a6e-b8c0-000000000003",
+    "reqId": "REQ-F-003",
+    "reason": null,
+    "aiMeta": null
+  },
+  {
+    "auditId": 50039,
+    "actedAt": "2026-10-10T09:31:00+09:00",
+    "actor": "이민규",
+    "action": "EXEC_REQUEST",
+    "targetType": "EXECUTION",
+    "targetId": "8e2d4c6a-7b1f-4e3d-a5b9-000000000004",
+    "reqId": "REQ-F-004",
+    "reason": null,
+    "aiMeta": null
+  }
+]

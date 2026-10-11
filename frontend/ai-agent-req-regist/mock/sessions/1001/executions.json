@@ -1,0 +1,189 @@
+[
+  {
+    "execId": "c0a8e3f1-1d2b-4c3a-8e4f-000000000001",
+    "itemId": 7001,
+    "reqId": "REQ-F-001",
+    "state": "SUCCEEDED",
+    "startedAt": "2026-10-08T11:00:00+09:00",
+    "finishedAt": "2026-10-08T11:42:00+09:00",
+    "failureReason": null,
+    "artifacts": [
+      {
+        "artifactId": "e1000001-0000-4000-8000-000000000001",
+        "type": "CODE_DIFF",
+        "name": "REQ-F-001.diff"
+      },
+      {
+        "artifactId": "e1000001-0000-4000-8000-000000000002",
+        "type": "LOG",
+        "name": "tasks/aiagent-req-f-001/log.md"
+      }
+    ],
+    "verification": {
+      "result": "PASSED",
+      "items": [
+        {
+          "label": "정상 양식 파일 업로드 시 전체 행이 누락 없이 미리보기에 표시된다.",
+          "passed": true
+        },
+        {
+          "label": "확장자·용량·행수 위반 파일은 업로드가 거부되고 사유가 화면에 표시된다.",
+          "passed": true
+        },
+        {
+          "label": "미리보기 상태에서 브라우저를 이탈해도 요구사항 테이블에 신규 행이 생성되지 않는다.",
+          "passed": true
+        }
+      ]
+    },
+    "scm": {
+      "branch": "aiagent/REQ-F-001-c0a8e3f1",
+      "prUrl": "/scm/pulls/12",
+      "pushedAt": "2026-10-08T13:10:00+09:00"
+    }
+  },
+  {
+    "execId": "d4b7f2a9-5e6c-4d8b-9a1f-000000000002",
+    "itemId": 7002,
+    "reqId": "REQ-F-002",
+    "state": "SUCCEEDED",
+    "startedAt": "2026-10-08T13:30:00+09:00",
+    "finishedAt": "2026-10-08T14:25:00+09:00",
+    "failureReason": null,
+    "artifacts": [
+      {
+        "artifactId": "e1000002-0000-4000-8000-000000000001",
+        "type": "CODE_DIFF",
+        "name": "REQ-F-002.diff"
+      },
+      {
+        "artifactId": "e1000002-0000-4000-8000-000000000002",
+        "type": "LOG",
+        "name": "tasks/aiagent-req-f-002/log.md"
+      }
+    ],
+    "verification": {
+      "result": "PASSED",
+      "items": [
+        {
+          "label": "필수 컬럼 누락 · 코드값 위반 · ID 형식 오류 파일이 각각 오류로 검출된다.",
+          "passed": true
+        },
+        {
+          "label": "중간 빈 행 파일이 경고로 검출되고 등록은 진행 가능하다.",
+          "passed": true
+        },
+        {
+          "label": "오류 0건 파일만 등록 버튼이 활성화된다.",
+          "passed": true
+        },
+        {
+          "label": "검증 리포트 엑셀 다운로드 시 화면 표시 건수와 행 수가 일치한다.",
+          "passed": true
+        }
+      ]
+    },
+    "scm": null
+  },
+  {
+    "execId": "5a9c1e7b-3f2d-4a6e-b8c0-000000000003",
+    "itemId": 7003,
+    "reqId": "REQ-F-003",
+    "state": "RUNNING",
+    "startedAt": "2026-10-10T09:30:00+09:00",
+    "finishedAt": null,
+    "failureReason": null,
+    "artifacts": [],
+    "verification": null,
+    "scm": null
+  },
+  {
+    "execId": "8e2d4c6a-7b1f-4e3d-a5b9-000000000004",
+    "itemId": 7004,
+    "reqId": "REQ-F-004",
+    "state": "QUEUED",
+    "startedAt": null,
+    "finishedAt": null,
+    "failureReason": null,
+    "artifacts": [],
+    "verification": null,
+    "scm": null
+  },
+  {
+    "execId": "b3f5a7c9-2e4d-4f6a-8c1b-000000000005",
+    "itemId": 7005,
+    "reqId": "REQ-F-005",
+    "state": "FAILED",
+    "startedAt": "2026-10-09T13:00:00+09:00",
+    "finishedAt": "2026-10-09T15:00:00+09:00",
+    "failureReason": "AGT-JOB-001 최대 수행 시간 초과",
+    "artifacts": [
+      {
+        "artifactId": "e1000005-0000-4000-8000-000000000001",
+        "type": "LOG",
+        "name": "tasks/aiagent-req-f-005/log.md"
+      }
+    ],
+    "verification": null,
+    "scm": null
+  },
+  {
+    "execId": "1c3e5a7b-9d2f-4b4c-8e6a-000000000006",
+    "itemId": 7006,
+    "reqId": "REQ-F-006",
+    "state": "CANCELLED",
+    "startedAt": "2026-10-09T16:00:00+09:00",
+    "finishedAt": "2026-10-09T16:20:00+09:00",
+    "failureReason": null,
+    "cancelReason": "검토 확정 해제 흐름 재설계 후 재실행 예정",
+    "artifacts": [
+      {
+        "artifactId": "e1000006-0000-4000-8000-000000000001",
+        "type": "CODE_DIFF",
+        "name": "REQ-F-006.diff",
+        "discarded": true
+      }
+    ],
+    "verification": null,
+    "scm": null
+  },
+  {
+    "execId": "f6a8c0e2-4b6d-4e8f-9a2c-000000000007",
+    "itemId": 7007,
+    "reqId": "REQ-F-007",
+    "state": "SUCCEEDED",
+    "startedAt": "2026-10-09T10:00:00+09:00",
+    "finishedAt": "2026-10-09T10:58:00+09:00",
+    "failureReason": null,
+    "artifacts": [
+      {
+        "artifactId": "e1000007-0000-4000-8000-000000000001",
+        "type": "PDF",
+        "name": "SRS_v2_draft.pdf"
+      },
+      {
+        "artifactId": "e1000007-0000-4000-8000-000000000002",
+        "type": "LOG",
+        "name": "tasks/aiagent-req-f-007/log.md"
+      }
+    ],
+    "verification": {
+      "result": "FAILED",
+      "items": [
+        {
+          "label": "확정 요구사항 전건이 추적 매트릭스에서 최소 1개 SRS 항목과 연결된다.",
+          "passed": true
+        },
+        {
+          "label": "고정 목차 9개 절이 모두 생성된다.",
+          "passed": false
+        },
+        {
+          "label": "미확정 상태에서 생성 API 호출 시 거부된다.",
+          "passed": true
+        }
+      ]
+    },
+    "scm": null
+  }
+]

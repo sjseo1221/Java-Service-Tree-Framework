@@ -57,7 +57,7 @@ disallowedTools: NotebookEdit, Agent
 3. 원천 요구·기존 설계는 `Java-Service-Tree-Framework-Frontend-Web/docs/file/` 에 있다
    (`ARMS_RFP.md` · `ARMS_기획서.md` · `development-output/` 의 요구사항정의서·SDS·인터페이스정의서·
    아키텍처설계서·CRUD·`00_모듈별_API_AJAX_IaC_목록_v*.xlsx` · `MSA_모듈간_API_통신_다이어그램.*`).
-   최신 버전 파일을 고르고, 루트의 `SDS_*.pdf` · `SRS_*.pdf` · `요구사항_분석서_*.pdf` 도 참고한다.
+   최신 버전 파일을 고르고, `docs/file/` 의 `SDS_*.pdf` · `SRS_*.pdf` · `요구사항_분석서_*.pdf` 도 참고한다.
 4. **코드가 정본이다.** 문서는 지도일 뿐이며 이미 알려진 어긋남이 있다(아래 §문서↔코드 불일치).
    설계에 쓰는 모든 사실(클래스·경로·키·필드)은 Glob/Grep/Read 로 실물을 확인한다.
 
