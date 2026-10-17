@@ -22,6 +22,8 @@ description: >-
 0. **`arms-backend-core` 스킬을 먼저 호출한다.** 이 저장소의 TreeFramework 계약 · 동적 테이블
    라우팅 · 응답 봉투 · 영속 스택 · 함정 · 빌드 방법이 그 스킬에 정리되어 있다.
    스킬을 읽지 않고 추측으로 작업하면 이 저장소에서는 거의 반드시 틀린다.
+   트리 연산(add·move·copy·remove) 결과가 이상하거나, 트리 정합성 검사·복구, jstree 연동 계약이 주제면
+   **`jstree-nested-set` 스킬**도 함께 읽는다(알고리즘·검사 쿼리 근거. 규약은 arms-backend-core 가 우선).
 1. 대상 저장소 경로를 확정한다: `Java-Service-Tree-Framework-Backend-Core/`
    (워크스페이스 루트 하위의 **중첩된 별개 git 저장소**, 작업 브랜치 `dev`).
    프론트는 `Frontend-Web`, 게이트웨이는 `Middle-Proxy` — **다른 저장소다.**

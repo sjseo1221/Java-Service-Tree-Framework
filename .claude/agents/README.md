@@ -30,7 +30,7 @@
 | 파일 | name | 도메인 |
 |------|------|--------|
 | `frontend-expert.md` | `frontend-expert` | vanilla JS · jQuery · Bootstrap 기반 서버렌더링 프론트엔드 |
-| `backend-expert.md` | `backend-expert` | Backend-Core(A-RMS API 서버: Java 11 · Spring Boot 2.6 · TreeFramework nested-set · 제품별 동적 테이블 라우팅 · Feign(Engine-Fire) · Kafka · POI) — 상세 규약은 `arms-backend-core` 스킬 |
+| `backend-expert.md` | `backend-expert` | Backend-Core(A-RMS API 서버: Java 11 · Spring Boot 2.6 · TreeFramework nested-set · 제품별 동적 테이블 라우팅 · Feign(Engine-Fire) · Kafka · POI) — 상세 규약은 `arms-backend-core` 스킬, nested-set 알고리즘·정합성 검사 근거는 `jstree-nested-set` 스킬 |
 | `database-expert.md` | `database-expert` | A-RMS(MySQL 8) 스키마 — Flyway 마이그레이션 · nested-set 루트 seed · `_LOG` 짝 테이블/트리거 · 제품별 동적 테이블 · 엔티티↔DDL 정합성 |
 | `middleproxy-expert.md` | `middleproxy-expert` | Middle-Proxy(A-RMS API 게이트웨이: Spring Cloud Gateway/WebFlux · Keycloak OIDC · Redis 세션·도메인 저장 · Kafka REQADD 프로듀서 · Feign) |
 | `broker-expert.md` | `broker-expert` | Broker-Hub(A-RMS 실시간 협업 브로커: Boot 3.5/Java 21 · STOMP/SockJS · OT 동시편집 엔진 · Redis 문서·참가자 상태 · 위키 편집락 방송(Middle-Proxy 위임)) — 상세 규약은 `broker-expert` 스킬 |
