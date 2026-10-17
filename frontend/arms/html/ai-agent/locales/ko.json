@@ -1,0 +1,89 @@
+{
+	"hansan": {
+		"page": { "title": "한산 — 지역별 장소 찾기" },
+		"header": { "date": "날짜", "lang": "언어" },
+		"tree": {
+			"title": "지역·장소",
+			"loading": "불러오는 중…",
+			"error": "목록을 불러오지 못했어요.",
+			"retry": "다시 시도"
+		},
+		"detail": {
+			"title": "상세",
+			"pickPlace": "장소를 고르면 상세 정보가 나와요.",
+			"loading": "불러오는 중…",
+			"error": "상세 정보를 불러오지 못했어요.",
+			"noDateData": "이 날짜의 추천 자료가 없어요.",
+			"stale": "최신 원천 목록에서 빠진 장소예요({date}부터).",
+			"checkBefore": "방문 전에 운영 여부와 시간을 꼭 확인하세요."
+		},
+		"section": { "basic": "기본 정보", "score": "점수", "reco": "이 날 추천" },
+		"field": {
+			"address": "주소",
+			"region": "지역",
+			"category": "분류",
+			"indoor": "실내·실외",
+			"rest": "쉬는 날",
+			"hours": "이용 시간"
+		},
+		"score": {
+			"popularity": "인기도",
+			"search": "네이버 검색",
+			"blog": "블로그 글 수",
+			"nav": "내비 순위",
+			"trend": "요즘 관심 변화",
+			"longTerm": "장기 관심 변화",
+			"pattern": "시간대 패턴",
+			"none": "점수 자료가 없어요."
+		},
+		"pattern": { "measured": "실측", "estimated": "추정" },
+		"reco": {
+			"likelihood": "한산 가능성",
+			"forecast": "혼잡 예측(0~100)",
+			"usual": "평소",
+			"usualPending": "평소 자료 쌓는 중",
+			"slot": "추천 시간대",
+			"types": "유형",
+			"reason": "근거",
+			"reasonPending": "근거 문장은 준비 중이에요. 유형 설명으로 대신해요.",
+			"beta": "베타",
+			"candidate": "숨은 클래식 후보예요(후기 판정 대기).",
+			"none": "이 날 추천 목록에 없어요.",
+			"asOf": "계산 기준 {date}"
+		},
+		"likelihood": {
+			"high": "한산할 가능성 높음",
+			"medium": "한산할 가능성 보통",
+			"low": "한산할 가능성 낮음"
+		},
+		"type": {
+			"timing_game": { "label": "눈치게임", "desc": "평소엔 붐비는데 이날은 덜 붐빌 것으로 보이는 곳" },
+			"famous_spot": { "label": "인기 명소", "desc": "아주 많이 찾는 곳인데 이날은 갈 만한 수준으로 붐비는 곳" },
+			"moderate_hotspot": { "label": "적당한 핫플", "desc": "많이 찾는 곳이지만 이날은 보통 수준으로 붐비는 곳" },
+			"time_slot": { "label": "시간대 공략", "desc": "인기 장소지만 덜 붐비는 시간대를 노리면 좋은 곳" },
+			"hidden_classic": { "label": "숨은 클래식", "desc": "예전보다 관심이 줄어 한산해진 오래된 명소" },
+			"early_hotspot": { "label": "얼리 핫플", "desc": "요즘 검색이 빠르게 늘고 있는, 아직 덜 알려진 곳" }
+		},
+		"category": {
+			"nature_park": "자연·공원",
+			"heritage": "역사·유적",
+			"exhibition": "전시·박물관",
+			"theme_park": "테마파크·체험",
+			"festival": "축제·행사",
+			"leisure_sports": "레저·스포츠",
+			"street_market": "거리·시장",
+			"walking_trail": "산책·둘레길"
+		},
+		"indoor": { "indoor": "실내", "outdoor": "실외", "mixed": "실내·실외" },
+		"common": { "noInfo": "정보 없음", "noData": "자료 없음" },
+		"format": {
+			"topPct": "상위 {n}%",
+			"rank": "{area} {n}위",
+			"changePct": "{sign}{n}%",
+			"date": "{m}월 {d}일({w})",
+			"today": "(오늘)"
+		},
+		"weekday": { "0": "일", "1": "월", "2": "화", "3": "수", "4": "목", "5": "금", "6": "토" },
+		"footer": { "asof": "점수 기준 {score} · 추천 계산 기준 {reco}" }
+	}
+}

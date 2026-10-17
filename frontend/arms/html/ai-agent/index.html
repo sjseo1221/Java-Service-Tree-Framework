@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1" />
+		<title data-locale="hansan.page.title">한산</title>
+		<link
+			rel="icon"
+			href="data:," />
+		<link
+			rel="stylesheet"
+			href="vendor/bootstrap/css/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="vendor/jstree/themes/default/style.min.css" />
+		<link
+			rel="stylesheet"
+			href="css/hansan-tree.css" />
+	</head>
+	<body>
+		<header class="page-header container-fluid">
+			<h1 data-locale="hansan.page.title"></h1>
+			<form
+				class="form-inline"
+				id="toolbar_form">
+				<div class="form-group">
+					<label
+						for="date_select"
+						data-locale="hansan.header.date"></label>
+					<select
+						class="form-control input-sm"
+						id="date_select"></select>
+				</div>
+				<div class="form-group">
+					<label
+						for="lang_select"
+						data-locale="hansan.header.lang"></label>
+					<select
+						class="form-control input-sm"
+						id="lang_select">
+						<option
+							value="ko"
+							lang="ko">
+							한국어
+						</option>
+						<option
+							value="en"
+							lang="en">
+							English
+						</option>
+					</select>
+				</div>
+			</form>
+		</header>
+
+		<main class="container-fluid">
+			<div class="row">
+				<div class="col-sm-5 col-md-4">
+					<section
+						class="widget"
+						id="tree_widget">
+						<header>
+							<h4 data-locale="hansan.tree.title"></h4>
+						</header>
+						<div class="body">
+							<div
+								id="tree_error"
+								class="hidden"></div>
+							<div id="place_tree"></div>
+						</div>
+					</section>
+				</div>
+				<div class="col-sm-7 col-md-8">
+					<section
+						class="widget"
+						id="detail_widget">
+						<header>
+							<h4 data-locale="hansan.detail.title"></h4>
+						</header>
+						<div class="body">
+							<p
+								id="detail_path"
+								class="text-muted"></p>
+							<div
+								id="detail_body"
+								aria-live="polite"></div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+
+		<footer class="container-fluid">
+			<p
+				id="data_asof"
+				class="text-muted small"></p>
+		</footer>
+
+		<script src="vendor/jquery/jquery-1.11.0.min.js"></script>
+		<script src="vendor/jstree/jstree.min.js"></script>
+		<script src="js/hansan-api.js"></script>
+		<script src="js/hansan-locale.js"></script>
+		<script src="js/hansan-tree.js"></script>
+	</body>
+</html>
