@@ -1,0 +1,91 @@
+/* 한산 ver2 레이아웃 보정 — Bootstrap 3 위에 최소한만 더한다 */
+
+body {
+	background: #fff;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+/* Bootstrap 3.0.2 에는 .container-fluid 가 없다(3.1 에서 추가) — .row 음수 마진이 넘치지 않게 3.1 과 같은 여백을 준다 */
+.container-fluid {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.page-header {
+	margin-top: 0;
+	padding-top: 12px;
+}
+
+.page-header h1 {
+	font-size: 22px;
+	margin-top: 0;
+}
+
+.page-header .form-group {
+	margin-right: 12px;
+	margin-bottom: 6px;
+}
+
+.page-header label {
+	margin-right: 6px;
+}
+
+/* lightblue4 위젯 구조(section.widget > header > h4 + div.body)의 기본 모양 */
+.widget {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 16px;
+}
+
+.widget > header {
+	border-bottom: 1px solid #ddd;
+	padding: 8px 12px;
+}
+
+.widget > header h4 {
+	margin: 0;
+}
+
+.widget > .body {
+	padding: 12px;
+}
+
+/* 긴 장소명은 패널 안에서만 스크롤 — 페이지 가로 넘침 방지 */
+#place_tree {
+	max-height: 60vh;
+	overflow: auto;
+}
+
+#detail_body h5 {
+	font-weight: bold;
+	margin-top: 18px;
+}
+
+#detail_body dd {
+	margin-bottom: 4px;
+}
+
+#detail_body .label {
+	display: inline-block;
+	margin: 0 4px 4px 0;
+	white-space: normal;
+}
+
+/* 한산 가능성 표시 — 상태 색상(Done · Warning · Critical) */
+.lh-mark {
+	letter-spacing: 1px;
+	margin-right: 6px;
+}
+
+.lh-high .lh-mark {
+	color: #34d399;
+}
+
+.lh-medium .lh-mark {
+	color: #fbbf24;
+}
+
+.lh-low .lh-mark {
+	color: #f87171;
+}

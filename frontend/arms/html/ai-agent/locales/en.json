@@ -1,0 +1,89 @@
+{
+	"hansan": {
+		"page": { "title": "Hansan — Browse places by region" },
+		"header": { "date": "Date", "lang": "Language" },
+		"tree": {
+			"title": "Regions & places",
+			"loading": "Loading…",
+			"error": "Could not load the list.",
+			"retry": "Retry"
+		},
+		"detail": {
+			"title": "Details",
+			"pickPlace": "Pick a place to see details.",
+			"loading": "Loading…",
+			"error": "Could not load details.",
+			"noDateData": "No recommendation data for this date.",
+			"stale": "This place dropped out of the latest source list (since {date}).",
+			"checkBefore": "Check opening status and hours before you go."
+		},
+		"section": { "basic": "Basics", "score": "Scores", "reco": "Recommendation for the day" },
+		"field": {
+			"address": "Address",
+			"region": "Region",
+			"category": "Category",
+			"indoor": "Indoor/outdoor",
+			"rest": "Closed on",
+			"hours": "Hours"
+		},
+		"score": {
+			"popularity": "Popularity",
+			"search": "Naver search",
+			"blog": "Blog posts",
+			"nav": "Navigation rank",
+			"trend": "Recent interest",
+			"longTerm": "Long-term interest",
+			"pattern": "Hourly pattern",
+			"none": "No score data."
+		},
+		"pattern": { "measured": "Measured", "estimated": "Estimated" },
+		"reco": {
+			"likelihood": "Quiet likelihood",
+			"forecast": "Congestion forecast (0–100)",
+			"usual": "Usual",
+			"usualPending": "Collecting usual data",
+			"slot": "Suggested time",
+			"types": "Types",
+			"reason": "Why",
+			"reasonPending": "Reason text is pending; showing the type description.",
+			"beta": "Beta",
+			"candidate": "Hidden-classic candidate (review pending).",
+			"none": "Not in this day's recommendations.",
+			"asOf": "Computed {date}"
+		},
+		"likelihood": {
+			"high": "Likely quiet",
+			"medium": "Maybe quiet",
+			"low": "Unlikely quiet"
+		},
+		"type": {
+			"timing_game": { "label": "Timing game", "desc": "Usually crowded, but expected to be less crowded on this day" },
+			"famous_spot": { "label": "Famous spot", "desc": "Very popular, but crowding is manageable on this day" },
+			"moderate_hotspot": { "label": "Moderate hotspot", "desc": "Popular, but only moderately crowded on this day" },
+			"time_slot": { "label": "Time-slot pick", "desc": "Popular place that is good if you aim for a quieter time slot" },
+			"hidden_classic": { "label": "Hidden classic", "desc": "A long-standing attraction that has become quieter as interest declined" },
+			"early_hotspot": { "label": "Early hotspot", "desc": "A lesser-known place whose searches are rising fast" }
+		},
+		"category": {
+			"nature_park": "Nature & parks",
+			"heritage": "Heritage",
+			"exhibition": "Exhibitions & museums",
+			"theme_park": "Theme parks & activities",
+			"festival": "Festivals & events",
+			"leisure_sports": "Leisure & sports",
+			"street_market": "Streets & markets",
+			"walking_trail": "Walking trails"
+		},
+		"indoor": { "indoor": "Indoor", "outdoor": "Outdoor", "mixed": "Both" },
+		"common": { "noInfo": "No info", "noData": "No data" },
+		"format": {
+			"topPct": "Top {n}%",
+			"rank": "#{n} in {area}",
+			"changePct": "{sign}{n}%",
+			"date": "{m}/{d} ({w})",
+			"today": "(today)"
+		},
+		"weekday": { "0": "Sun", "1": "Mon", "2": "Tue", "3": "Wed", "4": "Thu", "5": "Fri", "6": "Sat" },
+		"footer": { "asof": "Scores as of {score} · Recommendations computed {reco}" }
+	}
+}
